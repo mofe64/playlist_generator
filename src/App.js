@@ -1,8 +1,14 @@
 import './App.css';
+import { Switch, Route } from 'react-router-dom';
+import Home from './pages/home';
 
 function App() {
   return (
-   <h1>Nubari Music</h1>
+    <>
+      <Switch>
+        <Route exact path='/' component={ Home}/>
+      </Switch>
+    </>
   );
 }
 
