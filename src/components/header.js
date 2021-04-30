@@ -3,7 +3,7 @@ const Header = () => {
     return (
         <div className='nav'>
             <h1 className='nav-logo'>
-                Nubari Music
+                Some Logo
             </h1>
             <button className='nav-btn'>
                 Login

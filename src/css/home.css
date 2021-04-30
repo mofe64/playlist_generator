@@ -1,0 +1,85 @@
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.home {
+  display: flex;
+  margin-top: 6rem;
+}
+.home-left {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-right: 1rem;
+  padding-top: 2rem;
+}
+.home-left h1 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+.home-left p {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+.mood-select {
+  display: flex;
+  flex-direction: column;
+}
+.mood-select label {
+  font-weight: bold;
+  color: gray;
+}
+.mood-select select {
+  padding: 0.5rem 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border: none;
+  outline: none;
+  width: 35%;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+.create-playlist-btn {
+  width: 40%;
+  border: none;
+  outline: none;
+  background-color: #4285f4;
+  border-radius: 5px;
+  padding: 0.5rem;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: all ease-in 0.3s;
+}
+.create-playlist-btn:hover {
+  transform: scale(1.05);
+}
+.custom-creation p {
+  font-size: 14px;
+}
+.register-btn {
+  border: none;
+  outline: none;
+  background-color: #4285f4;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 5px;
+  transition: all ease-in 0.3s;
+}
+.register-btn:hover {
+  transform: scale(1.05);
+}
+
+.home-right {
+  width: 60%;
+  padding-left: 2rem;
+}
+.hero-image {
+  width: 100%;
+}
